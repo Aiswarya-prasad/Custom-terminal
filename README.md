@@ -5,6 +5,12 @@ There are two files in this repo
 - **example_default.sh** which is what is already present by default in ~/.bashrc
 - **edited.sh** which contains the edits that I made ~/.bashrc
 
+You can add any lines you please from the example ~/.bashrc file that you will find in this repository. Read the comments to find out what each section does. Do let me know if you find it useful!
+
+If you want to play around with what you print using echo check out this [link](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
+
+***********************************************************************************
+
  Your .bashrc file is in the home directory which can be accessed (or created) using
 
 `<editor> ~/.bashrc`
@@ -15,10 +21,6 @@ where \<editor\> can be any text editor of your choice (eg. atom, nano, vi or ge
 changes made to the file can either be visualized by opening a new terminal or by 
 
 `source ~/.bashrc`
-  
-You can add any lines you please from the example ~/.bashrc file that you will find in this repository. Read the comments to find out what each section does. Do let me know if you find it useful!
-
-If you want to play around with what you print using echo check out this [link](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
 if by some chance you mess up you bashrc, you can replace it with a back up that is always available in /etc/skel/ by
 
