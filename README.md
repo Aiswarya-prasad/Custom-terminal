@@ -12,7 +12,7 @@ You can copy and add any lines you please from the **edited.sh** to your ~/.bash
 
 If you want to play around with what you print using echo check out this [link](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
-<a name="footnote1">1</a>: It is good practice to create a back up of a working version regularly before editing the file
+<sub><sup><a name="footnote1">1</a>: It is good practice to create a back up of a working version regularly before editing the file</sup></sub>
 ***********************************************************************************
 
  Your .bashrc file is in the home directory which can be accessed (or created) using
