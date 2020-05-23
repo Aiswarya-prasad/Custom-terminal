@@ -12,7 +12,7 @@ You can copy and add any lines you please from the **edited.sh** to your ~/.bash
 
 If you want to play around with what you print using echo check out this [link](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
-[^1]: It is good practice to make a copy of the most recent version (back-up) before editing
+([^1]: It is good practice to make a copy of the most recent version (back-up) before editing)
 
 ***********************************************************************************
 
