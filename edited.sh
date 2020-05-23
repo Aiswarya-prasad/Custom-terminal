@@ -102,13 +102,28 @@ unset color_prompt force_color_prompt
 # #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 #
 # # some more ls aliases
-# alias ll='ls -lF'
+# # alias ll='ls -lF'
 # alias la='ls -A'
 # alias l='ls -CF'
 #
 # # Add an "alert" alias for long running commands.  Use like so:
 # #   sleep 10; alert
 # alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+#
+######################################################################################
+# * USEFUL ALIASES
+# As mentioned below this section, they can be added into ~/.bash_aliases
+# keeps this file concise
+# not all of them maybe useful for you do edit and filter before using
+######################################################################################
+alias ll='ls -lFh' # show file sizes and list
+alias wget='wget -c' # always use continue option to resume if incomplete download exists
+alias rsync='rsync -v' # always use verbose mode
+alias vpn_start='sudo openconnect vpn.something.foo.bars -u <username>' # regularly used vpn
+alias ssh_remote='ssh remote@xx.xx.xx.xx' # regularly used remote server
+alias copy_remote='rsync remote@xx.xx.xx.xx:$1 $2' # regularly used remote server
+#                                                 # usage: copy_remote ":<source path>" "<dest path>"
+######################################################################################
 #
 # # Alias definitions.
 # # You may want to put all your additions into a separate file like

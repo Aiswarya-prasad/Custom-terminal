@@ -64,7 +64,7 @@ fi
 
 if [ "$color_prompt" = yes ]; then
 if [ "$TERM" = linux ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[s\033[0;0H\033[0;43;30m\033[K`tty`	`/home/$USER/.netconnect_titlebar`\033[0;43;30m	     \A     	\d	     <user>\033[0m\033[u\]\[\033[K\033[1;32m\]\u \[\033[0;39m\]-\[\033[01;33m\] \w\[\033[0;35m\] \$\[\033[0;39m\]\033[00m '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[s\033[0;0H\033[0;43;30m\033[K`tty`	`/home/$USER/.netconnect_titlebar`\033[0;43;30m	     \A     	\d	     AISWARYA\033[0m\033[u\]\[\033[K\033[1;32m\]\u \[\033[0;39m\]-\[\033[01;33m\] \w\[\033[0;35m\] \$\[\033[0;39m\]\033[00m '
     printf "\033]P00A0000\033]P1FF0000\n"
     clear
     printf "\n"
@@ -102,14 +102,28 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -lF'
+# alias ll='ls -lF'
 alias la='ls -A'
 alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
+#
+######################################################################################
+# * USEFUL ALIASES
+# As mentioned below this section, they can be added into ~/.bash_aliases
+# keeps this file concise
+# not all of them maybe useful for you do edit and filter before using
+######################################################################################
+alias ll='ls -lFh' # show file sizes and list
+alias wget='wget -c' # always use continue option to resume if incomplete download exists
+alias rsync='rsync -v' # always use verbose mode
+alias vpn_start='sudo openconnect vpn.something.foo.bars -u <username>' # regularly used vpn
+alias ssh_remote='ssh remote@xx.xx.xx.xx' # regularly used remote server
+alias copy_remote='rsync remote@xx.xx.xx.xx:$1 $2' # regularly used remote server
+#                                                 # usage: copy_remote ":<source path>" "<dest path>"
+######################################################################################
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -172,14 +186,14 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u \[\033[01;34m\]\w\[\033
 ######################################################################################
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/<user>/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/aiswarya/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/<user>/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/<user>/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/aiswarya/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/aiswarya/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/<user>/miniconda3/bin:$PATH"
+        export PATH="/home/aiswarya/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
