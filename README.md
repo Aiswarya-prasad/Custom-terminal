@@ -6,7 +6,7 @@ There are two files in this repo
 - **edited.sh** - contains the edits that I made ~/.bashrc
 - **ready_edited.sh** - is a ready to use version
 
-Those lines in **edited.sh** that are present in **example_default.sh** have been commented out (comments have an extra #). If you want to directly replace your bashrc with an edited one use **ready_edited.sh**.
+Those lines in **edited.sh** that are present in **example_default.sh** have been commented out (comments have an extra #). If you want to directly replace your bashrc with an edited one use **ready_edited.sh** and make sure to replace \<username\> with your username and check that all the paths are correct.
 
 You can copy and add any lines you please from the **edited.sh** to your ~/.bashrc file. Read the comments in the file to find out what each section does. Do let me know if you find it useful!
 
