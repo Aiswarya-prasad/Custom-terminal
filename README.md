@@ -18,3 +18,9 @@ source ~/.bashrc
 You can add any lines you please from the example ~/.bashrc file that you will find in this repository. Read the comments to find out what each section does. Do let me know if you find it useful!
 
 This is a good resource to check out if you want to play around with what you print using echo https://misc.flogisoft.com/bash/tip_colors_and_formatting
+
+if by some chance you mess up you bashrc, you can replace it with a back up that is always available in /etc/skel/ by
+
+cp /etc/skel/.bashrc ~/.bashrc
+
+and then source or reopen terminal. You can also open the file in /etc/skel/ in a text editor and copy the text that you need and pasted it into your bashrc so as to not lose and changes that you made.
