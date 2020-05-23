@@ -5,7 +5,7 @@ There are two files in this repo
 - **example_default.sh** which is what is already present by default in ~/.bashrc
 - **edited.sh** which contains the edits that I made ~/.bashrc
 
-You can add any lines you please from the example ~/.bashrc file that you will find in this repository. Read the comments to find out what each section does. Do let me know if you find it useful!
+You can copy and add any lines you please from the **edited.sh** to your ~/.bashrc file. Read the comments in the file to find out what each section does. Do let me know if you find it useful!
 
 If you want to play around with what you print using echo check out this [link](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
