@@ -40,6 +40,16 @@ If there are any issues in newer or older versions, do let me know.*
 
 ***********************************************************************************
 
+Aliases added:
+ll: shows file sizes with list
+wget: always uses continue option to resume if incomplete download exists
+rsync: always uses verbose mode
+vpn_start: easy to use regularly used vpn
+ssh_remote: easy to use regularly used remote server
+copy_remote: easy to use regularly used remote server (for usage, see below)
+
+___________________________________________________________________________________
+
 Make sure to make the following edits if using **ready_edited.sh**:
 - replace all instances of \<user\> with your username
 - In vpn_start replace vpn and \<username\> with your username
