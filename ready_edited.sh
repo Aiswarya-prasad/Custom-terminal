@@ -122,7 +122,7 @@ alias rsync='rsync -v' # always use verbose mode
 alias vpn_start='sudo openconnect vpn.something.foo.bars -u <username>' # regularly used vpn
 alias ssh_remote='ssh remote@xx.xx.xx.xx' # regularly used remote server
 alias copy_remote='rsync remote@xx.xx.xx.xx:$1 $2' # regularly used remote server
-#                                                 # usage: copy_remote ":<source path>" "<dest path>"
+#                                                  # usage: copy_remote ":<source path>" "<dest path>"
 ######################################################################################
 # Alias definitions.
 # You may want to put all your additions into a separate file like

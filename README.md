@@ -41,5 +41,7 @@ If there are any issues in newer or older versions, do let me know.*
 ***********************************************************************************
 
 Make sure to make the following edits if using **ready_edited.sh**:
-- [ ] replace all instances of <user> with your username
-- [x] replace all instances of <user> with your username
+- replace all instances of \<user\> with your username
+- In vpn_start replace vpn and \<username\> with your username
+- In ssh_remote replace with your remote server and ip
+- In copy_remote replace with your remote server and ip (usage: copy_remote ":\<source path\>" "\<dest path\>")
