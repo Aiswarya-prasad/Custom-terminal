@@ -1,5 +1,5 @@
 # Custom-terminal
-A few lines to add to your .bashrc to customize your terminal!
+A few lines to add to your .bashrc to customize your terminal! It is most useful when you would like to keep track screen sessions, git branches and conda environments simultaneously.
 
 There are two files in this repo
 - **example_default.sh** - is what is already present by default in ~/.bashrc
