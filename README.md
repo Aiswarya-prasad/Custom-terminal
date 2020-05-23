@@ -5,7 +5,7 @@ There are two important files in the home directory which can be accessed (or cr
 
 `<editor> ~/.bashrc`
 
-   where \<editor\> can be any text editor of your choice (eg. nano, vi or gedit)
+   where \<editor\> can be any text editor of your choice (eg. atom, nano, vi or gedit)
 ~/.bashrc is executed everytime a new shell is opened. ~/.bash_profile is executed when a user logs in to a shell either remotely or locally.
 
 changes made to the file can either be visualized by opening a new terminal or by 
