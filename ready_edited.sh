@@ -64,7 +64,7 @@ fi
 
 if [ "$color_prompt" = yes ]; then
 if [ "$TERM" = linux ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[s\033[0;0H\033[0;43;30m\033[K`tty`	`/home/$USER/.netconnect_titlebar`\033[0;43;30m	     \A     	\d	     AISWARYA\033[0m\033[u\]\[\033[K\033[1;32m\]\u \[\033[0;39m\]-\[\033[01;33m\] \w\[\033[0;35m\] \$\[\033[0;39m\]\033[00m '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[s\033[0;0H\033[0;43;30m\033[K`tty`	`/home/$USER/.netconnect_titlebar`\033[0;43;30m	     \A     	\d	     <user>\033[0m\033[u\]\[\033[K\033[1;32m\]\u \[\033[0;39m\]-\[\033[01;33m\] \w\[\033[0;35m\] \$\[\033[0;39m\]\033[00m '
     printf "\033]P00A0000\033]P1FF0000\n"
     clear
     printf "\n"
@@ -186,14 +186,14 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u \[\033[01;34m\]\w\[\033
 ######################################################################################
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/aiswarya/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/<user>/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/aiswarya/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/aiswarya/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/<user>/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/<user>/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/aiswarya/miniconda3/bin:$PATH"
+        export PATH="/home/<user>/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup

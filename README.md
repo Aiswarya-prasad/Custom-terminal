@@ -4,7 +4,7 @@ A few lines to add to your .bashrc to customize your terminal! It is most useful
 There are two files in this repo
 - **example_default.sh** - is what is already present by default in ~/.bashrc
 - **edited.sh** - contains the edits that I made ~/.bashrc
-- **ready_edited.sh** - is a ready to use version
+- **ready_edited.sh** - is a ready to use version after some edits
 
 Those lines in **edited.sh** that are present in **example_default.sh** have been commented out (comments have an extra #). If you want to directly replace your bashrc with an edited one use **ready_edited.sh** and make sure to replace \<username\> with your username and check that all the paths are correct.
 
@@ -22,7 +22,7 @@ If you want to play around with what you print using echo check out this [link](
 where \<editor\> can be any text editor of your choice (eg. atom, nano, vi or gedit)
 ~/.bashrc is executed everytime a new shell is opened. ~/.bash_profile is executed when a user logs in to a shell either remotely or locally.
 
-changes made to the file can either be visualized by opening a new terminal or by 
+changes made to the file can either be visualized by opening a new terminal or by
 
 `source ~/.bashrc`
 
@@ -37,3 +37,9 @@ and then source or reopen terminal. You can also open the file in /etc/skel/ in 
 if this does not work, first install it using
 `sudo apt install lsb-release`
 If there are any issues in newer or older versions, do let me know.*
+
+***********************************************************************************
+
+Make sure to make the following edits if using **ready_edited.sh**:
+- [ ] replace all instances of <user> with your username
+- [x] replace all instances of <user> with your username
