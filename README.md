@@ -48,7 +48,7 @@ Aliases added:
 - *vpn_start*: easy to use regularly used vpn
 - *ssh_remote*: easy to use regularly used remote server
 - *copy_remote*: easy to use regularly used remote server (for usage, see below)
-
+- *tree* : displays sizes in tree output (installed seperately)
 ___________________________________________________________________________________
 
 Make sure to make the following edits if using **ready_edited.sh**:

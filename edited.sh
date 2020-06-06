@@ -123,6 +123,7 @@ alias vpn_start='sudo openconnect vpn.something.foo.bars -u <username>' # regula
 alias ssh_remote='ssh remote@xx.xx.xx.xx' # regularly used remote server
 alias copy_remote='rsync remote@xx.xx.xx.xx:$1 $2' # regularly used remote server
 #                                                 # usage: copy_remote ":<source path>" "<dest path>"
+alias tree='tree --du -h' # displays sizes in tree (installed seperately)
 ######################################################################################
 #
 # # Alias definitions.
